@@ -1,0 +1,1545 @@
+#educationSection{
+    top: 100vh;
+}
+#skillsSection{
+    top: 100vh;
+}
+#projectSection{
+    top: 100vh;
+}
+#assignmentSection{
+    top: 100vh;
+}
+#gallerySection{
+    top: 100vh;
+}
+footer{
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+@media all and (min-width: 1440px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 60vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: inline-block;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+
+
+    header > nav > ul > li > a:hover {
+        border-top: 7px solid rgba(3, 39, 95, 1);
+    }
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 11px;
+        top: 41px;
+    }
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 51px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 66px;
+        left: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 101px;
+        left: 60px;
+        font-family: monospace;
+        font-size: 21px;
+        margin-right: 803px;
+        line-height: 36px;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 410px;
+        left: 3px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 15px;
+        top: 369px;
+        left: 3px;
+    }
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 190px;
+        left: 129px;
+        font-size: 45px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #homeSection > div:nth-child(4) {
+        width: 393px;
+        height: 460px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 159px;
+        right: 206px;
+    }
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 132px;
+        right: 232px;
+    }
+    #homeSection > div:nth-child(5) > img {
+        width: 393px;
+    }
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 44px;
+        right: 430px;
+        top: 86px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        width: 12vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 25px;
+        top: 39vh;
+        line-height: 45px;
+        font-weight: bold;
+        width: 70vw;
+        left: 11vw;
+    }
+    #educationSection>h3{
+        position: absolute;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        top: 65px;
+        left: 102px;
+        color: white;
+    }
+    #pmv{
+        position: absolute;
+        top: 205px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #pwc{
+        position: absolute;
+        top: 277px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #ijse{
+        position: absolute;
+        top: 350px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #educationSection>input{
+        position: absolute;
+        top: 529px;
+        left: 101px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+    #backimg{
+        border-radius: 26px;
+        position: absolute;
+        top: 456px;
+        right: 457px;
+        width: 244px;
+    }
+    #pmvi{
+        top: 57px;
+        position: absolute;
+        right: 43px;
+    }
+    #pwci{
+        top: 144px;
+        right: 162px;
+        position: absolute;
+    }
+    #ijsei{
+        position: absolute;
+        top: 259px;
+        left: 30px;
+    }
+    #educationSection>div{
+        width: 402px;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 156px;
+        right: 189px;
+    }
+    main>div{
+        width: 13px;
+        aspect-ratio: 1/1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 98px;
+        left: 71px;
+    }
+    main>nav>div{
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 489px;
+        left: 104px;
+    }
+}
+
+@media all and (max-width: 1440px) and (min-width: 1024px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 55vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: inline-block;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        border-top: 7px solid rgba(3, 39, 95, 1);
+    }
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 11px;
+        top: 41px;
+    }
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 51px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 66px;
+        left: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 101px;
+        left: 60px;
+        font-family: monospace;
+        font-size: 21px;
+        margin-right: 803px;
+        line-height: 36px;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 410px;
+        left: 3px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 15px;
+        top: 369px;
+        left: 3px;
+    }
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 190px;
+        left: 129px;
+        font-size: 45px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #homeSection > div:nth-child(4) {
+        width: 393px;
+        height: 460px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 159px;
+        right: 98px;
+    }
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 132px;
+        right: 132px;
+    }
+    #homeSection > div:nth-child(5) > img {
+        width: 393px;
+    }
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 44px;
+        right: 430px;
+        top: 86px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        width: 12vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 25px;
+        top: 39vh;
+        line-height: 45px;
+        font-weight: bold;
+        width: 70vw;
+        left: 11vw;
+    }
+    #educationSection>h3{
+        position: absolute;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        top: 65px;
+        left: 102px;
+        color: white;
+    }
+    #pmv{
+        position: absolute;
+        top: 205px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #pwc{
+        position: absolute;
+        top: 277px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #ijse{
+        position: absolute;
+        top: 350px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #educationSection>input{
+        position: absolute;
+        top: 529px;
+        left: 101px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+    #backimg{
+        border-radius: 26px;
+        position: absolute;
+        top: 456px;
+        right: 457px;
+        width: 244px;
+    }
+    #pmvi{
+        top: 57px;
+        position: absolute;
+        right: 43px;
+    }
+    #pwci{
+        top: 144px;
+        right: 162px;
+        position: absolute;
+    }
+    #ijsei{
+        position: absolute;
+        top: 259px;
+        left: 30px;
+    }
+    #educationSection>div{
+        width: 402px;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 156px;
+        right: 189px;
+    }
+    main>div{
+        width: 13px;
+        aspect-ratio: 1/1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 98px;
+        left: 71px;
+    }
+    main>nav>div{
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 489px;
+        left: 104px;
+    }
+
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 45vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: inline-block;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 11px;
+        top: 41px;
+    }
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 40px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 66px;
+        left: 0;
+        width: 443px;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 101px;
+        left: 60px;
+        font-family: monospace;
+        font-size: 21px;
+        line-height: 36px;
+        width: 418px;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 410px;
+        left: 3px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 15px;
+        top: 369px;
+        left: 3px;
+    }
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 190px;
+        left: 129px;
+        font-size: 45px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #homeSection > div:nth-child(4) {
+        width: 319px;
+        height: 378px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 159px;
+        right: 50px;
+    }
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 132px;
+        right: 80px;
+    }
+    #homeSection > div:nth-child(5) > img {
+        width: 322px;
+    }
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 38px;
+        right: 202px;
+        top: 86px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        width: 12vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 25px;
+        top: 30vh;
+        line-height: 45px;
+        font-weight: bold;
+        width: 65vw;
+        left: 11vw;
+    }
+    #educationSection>h3{
+        position: absolute;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        top: 65px;
+        left: 102px;
+        color: white;
+    }
+    #pmv{
+        position: absolute;
+        top: 205px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #pwc{
+        position: absolute;
+        top: 277px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #ijse{
+        position: absolute;
+        top: 350px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #educationSection>input{
+        position: absolute;
+        top: 529px;
+        left: 101px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+    #backimg{
+        border-radius: 26px;
+        position: absolute;
+        top: 458px;
+        right: 247px;
+        width: 244px;
+    }
+    #pmvi{
+        top: 57px;
+        position: absolute;
+        right: 43px;
+    }
+    #pwci{
+        top: 144px;
+        right: 162px;
+        position: absolute;
+    }
+    #ijsei{
+        position: absolute;
+        top: 259px;
+        left: 30px;
+    }
+    #educationSection>div{
+        width: 402px;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 156px;
+        right: 14px;
+    }
+    main>div{
+        width: 13px;
+        aspect-ratio: 1/1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 98px;
+        left: 71px;
+    }
+    main>nav>div{
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 489px;
+        left: 104px;
+    }
+
+}
+
+@media all and (max-width: 768px) and (min-width: 425px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+        opacity: 0%;
+    }
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 60vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: grid;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 25000;
+    }
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 207px;
+        left: 93px;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 32px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 277px;
+        left: 88px;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 284px;
+        left: 88px;
+        font-family: monospace;
+        font-size: 17px;
+        line-height: 30px;
+        width: 494px;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 467px;
+        left: 88px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+        opacity:  0% ;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 13px;
+        top: 433px;
+        left: 88px;
+    }
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 190px;
+        left: 129px;
+        font-size: 45px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 170px;
+        position: relative;
+    }
+    #homeSection > div:nth-child(4) {
+        width: 279px;
+        height: 327px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 46px;
+        right: 234px;
+    }
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 132px;
+        right: 232px;
+    }
+    #homeSection > div:nth-child(5) > img {
+        width: 274px;
+        position: relative;
+        top: -93px;
+        left: -17px;
+    }
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 35px;
+        right: 142px;
+        top: 66px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        width: 12vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 21px;
+        top: 25vh;
+        line-height: 45px;
+        font-weight: bold;
+        width: 70vw;
+        left: 12vw;
+    }
+    #educationSection>h3{
+        position: absolute;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        top: 22px;
+        left: 81px;
+        color: white;
+    }
+    #pmv{
+        position: absolute;
+        top: 441px;
+        left: 140px;
+        font-family: serif;
+        font-size: 24px;
+        color: white;
+    }
+    #pwc{
+        position: absolute;
+        top: 487px;
+        left: 140px;
+        font-family: serif;
+        font-size: 24px;
+        color: white;    }
+    #ijse{
+        position: absolute;
+        top: 534px;
+        left: 140px;
+        font-family: serif;
+        font-size: 24px;
+        color: white;
+    }
+    #educationSection>input{
+        position: absolute;
+        top: 639px;
+        left: 138px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+    #backimg{
+        border-radius: 26px;
+        position: absolute;
+        top: 299px;
+        right: 128px;
+        width: 237px;
+    }
+    #pmvi{
+        width: 55px;
+        top: 34px;
+        position: absolute;
+        right: 43px;
+    }
+    #pwci{
+        width: 55px;
+        top: 126px;
+        right: 132px;
+        position: absolute;
+    }
+    #ijsei{
+        width: 55px;
+        position: absolute;
+        top: 223px;
+        left: 37px;
+    }
+    #educationSection>div{
+        width: 323px;
+        aspect-ratio: 1 / 1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 91px;
+        right: 245px;
+    }
+    main>div{
+        width: 13px;
+        aspect-ratio: 1 / 1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 56px;
+        left: 52px;
+    }
+    main>nav>div{
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 620px;
+        left: 139px;
+    }
+
+
+}
+@media all and (max-width: 425px) and (min-width: 375px){
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+        opacity: 50%;
+    }
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 60vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: inline-block;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 11px;
+        top: 41px;
+        z-index: 25000;
+    }
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 207px;
+        left: 93px;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 39px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 259px;
+        left: 88px;
+        width: 600px;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 284px;
+        left: 88px;
+        font-family: monospace;
+        font-size: 17px;
+        line-height: 30px;
+        width: 494px;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 467px;
+        left: 88px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+        opacity:  0% ;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 13px;
+        top: 433px;
+        left: 88px;
+    }
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 190px;
+        left: 129px;
+        font-size: 45px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 170px;
+        position: relative;
+    }
+    #homeSection > div:nth-child(4) {
+        width: 279px;
+        height: 327px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 46px;
+        right: 234px;
+    }
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 132px;
+        right: 232px;
+    }
+    #homeSection > div:nth-child(5) > img {
+        width: 274px;
+        position: relative;
+        top: -93px;
+        left: -17px;
+    }
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 44px;
+        right: 430px;
+        top: 86px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        width: 12vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 25px;
+        top: 39vh;
+        line-height: 45px;
+        font-weight: bold;
+        width: 70vw;
+        left: 11vw;
+    }
+    #educationSection>h3{
+        position: absolute;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: bold;
+        top: 65px;
+        left: 102px;
+        color: white;
+    }
+    #pmv{
+        position: absolute;
+        top: 205px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #pwc{
+        position: absolute;
+        top: 277px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #ijse{
+        position: absolute;
+        top: 350px;
+        left: 105px;
+        font-family: serif;
+        font-size: 33px;
+        color: white;
+    }
+    #educationSection>input{
+        position: absolute;
+        top: 529px;
+        left: 101px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+    #backimg{
+        border-radius: 26px;
+        position: absolute;
+        top: 456px;
+        right: 457px;
+        width: 244px;
+    }
+    #pmvi{
+        top: 57px;
+        position: absolute;
+        right: 43px;
+    }
+    #pwci{
+        top: 144px;
+        right: 162px;
+        position: absolute;
+    }
+    #ijsei{
+        position: absolute;
+        top: 259px;
+        left: 30px;
+    }
+    #educationSection>div{
+        width: 402px;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 156px;
+        right: 189px;
+    }
+    main>div{
+        width: 13px;
+        aspect-ratio: 1/1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 98px;
+        left: 71px;
+    }
+    main>nav>div{
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 489px;
+        left: 104px;
+    }
+
+}
+
+
+
+
