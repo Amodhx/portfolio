@@ -20,6 +20,33 @@ footer{
     height: 40vh;
     background-color: black;
 }
+#skillsSection > div > h3 {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#skillsSection > div:first-child{
+    position: absolute;
+    text-align: center;
+    width: 90vw;
+    height: fit-content;
+    border: 5px solid #00B2FF;
+    border-radius: 15px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 14vh;
+    background-color: black;
+}
+
+#skillsSection > div:first-child > img {
+    margin: 2vw;
+}
+#skillsSection > div:nth-child(2)>button{
+    margin: 7vw;
+}
 @media all and (min-width: 1440px) {
     header {
         position: fixed;
