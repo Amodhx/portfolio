@@ -47,6 +47,9 @@ footer{
 #skillsSection > div:nth-child(2)>button{
     margin: 7vw;
 }
+footer{
+    overflow: hidden;
+}
 @media all and (min-width: 1440px) {
     header {
         position: fixed;
@@ -347,6 +350,16 @@ footer{
         position: absolute;
         top: 489px;
         left: 104px;
+    }
+    footer>div>img{
+        width: 15vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -37px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
 
@@ -650,7 +663,16 @@ footer{
         top: 489px;
         left: 104px;
     }
-
+    footer>div>img{
+        width: 15vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -37px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
@@ -949,7 +971,16 @@ footer{
         top: 489px;
         left: 104px;
     }
-
+    footer>div>img{
+        width: 15vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -37px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 425px) {
@@ -1257,7 +1288,16 @@ footer{
         top: 620px;
         left: 139px;
     }
-
+    footer>div>img{
+        width: 24vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -51px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 
 }
 @media all and (max-width: 425px) and (min-width: 375px){
