@@ -3,65 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hi! I'm Amodh nanditha weerasinghe.This is my web profile.If you want to know about me, come to my website.">
+    <meta name="Amodh , amodh,Amodh nanditha , Amodh Weersinghe , amodh weerasinghe , Amodh weerasinghe  ,nanditha , weerasinghe , amodhweerasinghe ,amodhnanditha" content="Amodh weerasinghe software engineer fullstack developer programming">
+    <meta name="author" content="Amodh Weerasinghe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+    <style>
+        section {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            background-image: url("assets/images/backgroung.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        footer > div {
+            background-image: url(assets/images/footerImage.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 40vh;
+            border-radius: 65px 65px 0px 0px;
+            bottom: 0;
+            position: absolute;
+        }
+
+        #skillsSection > div:nth-child(2) {
+            width: 90vw;
+            height: fit-content;
+            background-image: url(assets/images/resumebackground.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 62vh;
+            margin: auto;
+            text-align: center;
+            border: 2px solid #00B2FF;
+            border-radius: 15px;
+        }
+        #projectSection > div > div > div > img::content{
+            background-color: red;
+            top: 0;
+            opacity: 0;
+
+        }
+        #projectSection > div > div > div > img:hover{
+            background-color: red;
+            top: 0;
+            left: 100%;
+            transform: scaleX(-1);
+            transition-duration: 1.5s;
+
+        }
+        ::content:hover{
+            transform: scaleX(1);
+            opacity: 1;
+        }
+    </style>
 </head>
-<style>
-    section {
-        height: 100vh;
-        width: 100%;
-        position: relative;
-        background-image: url("assets/images/backgroung.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    footer>div{
-        background-image: url(assets/images/footerImage.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 40vh;
-        border-radius: 65px 65px 0px 0px;
-        bottom: 0;
-        position: absolute;
-    }
-    #skillsSection > div:nth-child(2){
-        width: 90vw;
-        height: fit-content;
-        background-image: url(assets/images/resumebackground.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 63vh;
-        margin: auto;
-        text-align: center;
-        border: 5px solid #00B2FF;
-        border-radius: 15px;
-    }
 
-
-</style>
 <body>
 <header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Assignments</a></li>
-            <li><a href="">Fine me:</a></li>
+            <li><a href="#homeSection">Home</a></li>
+            <li><a href="#blogSection">About</a></li>
+            <li><a href="#educationSection">Education</a></li>
+            <li><a href="#projectSection">Projects</a></li>
+            <li><a href="#assignmentSection">Assignments</a></li>
+            <li><a href="#footer">Fine me:</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <section id="homeSection">
 
+    <section id="homeSection">
         <div>
             <img src="assets/icon/badge.png" title="logo" alt="logo">
         </div>
@@ -149,11 +175,58 @@
     </section>
 
     <section id="projectSection">
+        <div>
+            <h3>Projects</h3>
+            <div>
+                <div>
+                    <img src="assets/projects/inventory.png" alt=" " width="350px" height="220px">
 
+                </div>
+
+                <div>
+                    <img src="assets/projects/saloon.png" alt="" width="350px" height="220px">
+                </div>
+
+                <div>
+                    <img src="assets/projects/library.png" alt="" width="350px" height="220px">
+                </div>
+
+                <div>
+                    <img src="assets/projects/student.png" alt="" width="350px" height="220px">
+                </div>
+
+            </div>
+            <button>
+                View More
+            </button>
+        </div>
     </section>
 
     <section id="assignmentSection">
+        <div>
+            <h3>Assignments</h3>
+            <div>
+                <div>
+                    <img src="assets/projects/inventory.png" alt=" " width="350px" height="220px">
+                </div>
 
+                <div>
+                    <img src="assets/projects/saloon.png" alt="" width="350px" height="220px">
+                </div>
+
+                <div>
+                    <img src="assets/projects/library.png" alt="" width="350px" height="220px">
+                </div>
+
+                <div>
+                    <img src="assets/projects/student.png" alt="" width="350px" height="220px">
+                </div>
+
+            </div>
+            <button>
+                View More
+            </button>
+        </div>
     </section>
 
     <section id="gallerySection">
@@ -161,10 +234,13 @@
     </section>
 
 </main>
-<footer>
+<footer id="footer">
     <div>
         <img src="assets/images/footerAdmin.png" alt="admin.img">
     </div>
 </footer>
+
+
+<script src="js/Main.js"></script>
 </body>
 </html>

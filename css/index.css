@@ -1,25 +1,31 @@
-#educationSection{
+#educationSection {
     top: 100vh;
 }
-#skillsSection{
+
+#skillsSection {
     top: 100vh;
 }
-#projectSection{
+
+#projectSection {
     top: 100vh;
 }
-#assignmentSection{
+
+#assignmentSection {
     top: 100vh;
 }
-#gallerySection{
+
+#gallerySection {
     top: 100vh;
 }
-footer{
+
+footer {
     position: relative;
     top: 100vh;
     width: 100%;
     height: 40vh;
     background-color: black;
 }
+
 #skillsSection > div > h3 {
     font-family: cursive;
     font-size: 25px;
@@ -27,29 +33,32 @@ footer{
     color: white;
 }
 
-#skillsSection > div:first-child{
+#skillsSection > div:first-child {
     position: absolute;
     text-align: center;
     width: 90vw;
     height: fit-content;
-    border: 5px solid #00B2FF;
+    border: 2px solid #00B2FF;
     border-radius: 15px;
     right: 0;
     left: 0;
     margin: auto;
-    top: 14vh;
+    top: 9vh;
     background-color: black;
 }
 
 #skillsSection > div:first-child > img {
-    margin: 2vw;
+    margin: 3vw;
 }
-#skillsSection > div:nth-child(2)>button{
+
+#skillsSection > div:nth-child(2) > button {
     margin: 7vw;
 }
-footer{
+
+footer {
     overflow: hidden;
 }
+
 @media all and (min-width: 1440px) {
     header {
         position: fixed;
@@ -90,11 +99,13 @@ footer{
     header > nav > ul > li > a:hover {
         border-top: 7px solid rgba(3, 39, 95, 1);
     }
+
     #homeSection > div:first-child {
         position: absolute;
         left: 11px;
         top: 41px;
     }
+
     #homeSection > div:nth-child(2) {
         position: absolute;
         top: 207px;
@@ -109,6 +120,10 @@ footer{
         left: 0;
         font-size: 22px;
         margin-bottom: 0;
+
+        animation-name: homeTitle;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
     }
 
     #homeSection > div:nth-child(2) > h1 {
@@ -119,6 +134,10 @@ footer{
         margin-top: 0;
         top: 66px;
         left: 0;
+
+        animation-name: homeName;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
     }
 
     #homeSection > div:nth-child(2) > h5 {
@@ -129,6 +148,10 @@ footer{
         font-size: 21px;
         margin-right: 803px;
         line-height: 36px;
+
+        animation-name: homePara;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
     }
 
     #homelftline {
@@ -147,6 +170,10 @@ footer{
         position: absolute;
         top: 171px;
         left: 0;
+
+        animation-name: homeLine;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
     }
 
     #homeSection > div:nth-child(2) > h4 {
@@ -157,6 +184,7 @@ footer{
         top: 369px;
         left: 3px;
     }
+
     #homeSection > div:nth-child(3) {
         position: absolute;
         color: darkgray;
@@ -170,6 +198,7 @@ footer{
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #homeSection > div:nth-child(4) {
         width: 393px;
         height: 460px;
@@ -179,14 +208,17 @@ footer{
         top: 159px;
         right: 206px;
     }
+
     #homeSection > div:nth-child(5) {
         position: absolute;
         top: 132px;
         right: 232px;
     }
+
     #homeSection > div:nth-child(5) > img {
         width: 393px;
     }
+
     #socailLinks {
         position: absolute;
         top: 172px;
@@ -210,6 +242,7 @@ footer{
         top: 95px;
         right: 116px;
     }
+
     #blogSection {
         position: absolute;
         top: 100vh;
@@ -235,8 +268,13 @@ footer{
         position: absolute;
         font-family: monospace;
         font-size: 44px;
-        right: 430px;
+        right: 392px;
         top: 86px;
+
+        animation-name: blogTitle;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        animation-delay: 2s;
     }
 
     #blogSection > div > img {
@@ -256,7 +294,8 @@ footer{
         width: 70vw;
         left: 11vw;
     }
-    #educationSection>h3{
+
+    #educationSection > h3 {
         position: absolute;
         font-family: cursive;
         font-size: 25px;
@@ -265,7 +304,8 @@ footer{
         left: 102px;
         color: white;
     }
-    #pmv{
+
+    #pmv {
         position: absolute;
         top: 205px;
         left: 105px;
@@ -273,7 +313,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #pwc{
+
+    #pwc {
         position: absolute;
         top: 277px;
         left: 105px;
@@ -281,7 +322,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #ijse{
+
+    #ijse {
         position: absolute;
         top: 350px;
         left: 105px;
@@ -289,7 +331,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #educationSection>input{
+
+    #educationSection > input {
         position: absolute;
         top: 529px;
         left: 101px;
@@ -302,29 +345,34 @@ footer{
         width: 82px;
         height: 23px;
     }
-    #backimg{
+
+    #backimg {
         border-radius: 26px;
         position: absolute;
         top: 456px;
         right: 457px;
         width: 244px;
     }
-    #pmvi{
+
+    #pmvi {
         top: 57px;
         position: absolute;
         right: 43px;
     }
-    #pwci{
+
+    #pwci {
         top: 144px;
         right: 162px;
         position: absolute;
     }
-    #ijsei{
+
+    #ijsei {
         position: absolute;
         top: 259px;
         left: 30px;
     }
-    #educationSection>div{
+
+    #educationSection > div {
         width: 402px;
         aspect-ratio: 1/1;
         border-radius: 100%;
@@ -334,7 +382,8 @@ footer{
         top: 156px;
         right: 189px;
     }
-    main>div{
+
+    main > div {
         width: 13px;
         aspect-ratio: 1/1;
         background-color: rgba(0, 178, 255, 1);
@@ -343,7 +392,8 @@ footer{
         top: 98px;
         left: 71px;
     }
-    main>nav>div{
+
+    main > nav > div {
         width: 79px;
         height: 2px;
         background-color: rgba(0, 178, 255, 1);
@@ -351,7 +401,8 @@ footer{
         top: 489px;
         left: 104px;
     }
-    footer>div>img{
+
+    footer > div > img {
         width: 15vw;
         aspect-ratio: 1 / 1;
         position: absolute;
@@ -361,9 +412,120 @@ footer{
         right: 0;
         margin: auto;
     }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 12px;
+        right: 648px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 12px;
+        right: 648px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 355px;
+        height: 225px;
+    }
 }
 
-@media all and (max-width: 1440px) and (min-width: 1024px) {
+@media all and (max-width: 1440px) and (min-width: 1025px) {
     header {
         position: fixed;
         background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
@@ -402,11 +564,13 @@ footer{
     header > nav > ul > li > a:hover {
         border-top: 7px solid rgba(3, 39, 95, 1);
     }
+
     #homeSection > div:first-child {
         position: absolute;
         left: 11px;
         top: 41px;
     }
+
     #homeSection > div:nth-child(2) {
         position: absolute;
         top: 207px;
@@ -469,6 +633,7 @@ footer{
         top: 369px;
         left: 3px;
     }
+
     #homeSection > div:nth-child(3) {
         position: absolute;
         color: darkgray;
@@ -482,6 +647,7 @@ footer{
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #homeSection > div:nth-child(4) {
         width: 393px;
         height: 460px;
@@ -491,14 +657,17 @@ footer{
         top: 159px;
         right: 98px;
     }
+
     #homeSection > div:nth-child(5) {
         position: absolute;
         top: 132px;
         right: 132px;
     }
+
     #homeSection > div:nth-child(5) > img {
         width: 393px;
     }
+
     #socailLinks {
         position: absolute;
         top: 172px;
@@ -522,6 +691,7 @@ footer{
         top: 95px;
         right: 116px;
     }
+
     #blogSection {
         position: absolute;
         top: 100vh;
@@ -568,7 +738,8 @@ footer{
         width: 70vw;
         left: 11vw;
     }
-    #educationSection>h3{
+
+    #educationSection > h3 {
         position: absolute;
         font-family: cursive;
         font-size: 25px;
@@ -577,7 +748,8 @@ footer{
         left: 102px;
         color: white;
     }
-    #pmv{
+
+    #pmv {
         position: absolute;
         top: 205px;
         left: 105px;
@@ -585,7 +757,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #pwc{
+
+    #pwc {
         position: absolute;
         top: 277px;
         left: 105px;
@@ -593,7 +766,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #ijse{
+
+    #ijse {
         position: absolute;
         top: 350px;
         left: 105px;
@@ -601,7 +775,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #educationSection>input{
+
+    #educationSection > input {
         position: absolute;
         top: 529px;
         left: 101px;
@@ -614,29 +789,34 @@ footer{
         width: 82px;
         height: 23px;
     }
-    #backimg{
+
+    #backimg {
         border-radius: 26px;
         position: absolute;
         top: 456px;
         right: 457px;
         width: 244px;
     }
-    #pmvi{
+
+    #pmvi {
         top: 57px;
         position: absolute;
         right: 43px;
     }
-    #pwci{
+
+    #pwci {
         top: 144px;
         right: 162px;
         position: absolute;
     }
-    #ijsei{
+
+    #ijsei {
         position: absolute;
         top: 259px;
         left: 30px;
     }
-    #educationSection>div{
+
+    #educationSection > div {
         width: 402px;
         aspect-ratio: 1/1;
         border-radius: 100%;
@@ -646,7 +826,8 @@ footer{
         top: 156px;
         right: 189px;
     }
-    main>div{
+
+    main > div {
         width: 13px;
         aspect-ratio: 1/1;
         background-color: rgba(0, 178, 255, 1);
@@ -655,7 +836,8 @@ footer{
         top: 98px;
         left: 71px;
     }
-    main>nav>div{
+
+    main > nav > div {
         width: 79px;
         height: 2px;
         background-color: rgba(0, 178, 255, 1);
@@ -663,7 +845,8 @@ footer{
         top: 489px;
         left: 104px;
     }
-    footer>div>img{
+
+    footer > div > img {
         width: 15vw;
         aspect-ratio: 1 / 1;
         position: absolute;
@@ -673,9 +856,127 @@ footer{
         right: 0;
         margin: auto;
     }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 12px;
+        right: 648px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 355px;
+        height: 225px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 12px;
+        right: 648px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 355px;
+        height: 225px;
+    }
 }
 
-@media all and (max-width: 1024px) and (min-width: 768px) {
+@media all and (max-width: 1024px) and (min-width: 769px) {
     header {
         position: fixed;
         background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
@@ -709,11 +1010,13 @@ footer{
         padding-top: 7px;
         text-decoration: none;
     }
+
     #homeSection > div:first-child {
         position: absolute;
         left: 11px;
         top: 41px;
     }
+
     #homeSection > div:nth-child(2) {
         position: absolute;
         top: 207px;
@@ -777,6 +1080,7 @@ footer{
         top: 369px;
         left: 3px;
     }
+
     #homeSection > div:nth-child(3) {
         position: absolute;
         color: darkgray;
@@ -790,6 +1094,7 @@ footer{
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #homeSection > div:nth-child(4) {
         width: 319px;
         height: 378px;
@@ -799,14 +1104,17 @@ footer{
         top: 159px;
         right: 50px;
     }
+
     #homeSection > div:nth-child(5) {
         position: absolute;
         top: 132px;
         right: 80px;
     }
+
     #homeSection > div:nth-child(5) > img {
         width: 322px;
     }
+
     #socailLinks {
         position: absolute;
         top: 172px;
@@ -830,6 +1138,7 @@ footer{
         top: 95px;
         right: 116px;
     }
+
     #blogSection {
         position: absolute;
         top: 100vh;
@@ -876,7 +1185,8 @@ footer{
         width: 65vw;
         left: 11vw;
     }
-    #educationSection>h3{
+
+    #educationSection > h3 {
         position: absolute;
         font-family: cursive;
         font-size: 25px;
@@ -885,7 +1195,8 @@ footer{
         left: 102px;
         color: white;
     }
-    #pmv{
+
+    #pmv {
         position: absolute;
         top: 205px;
         left: 105px;
@@ -893,7 +1204,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #pwc{
+
+    #pwc {
         position: absolute;
         top: 277px;
         left: 105px;
@@ -901,7 +1213,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #ijse{
+
+    #ijse {
         position: absolute;
         top: 350px;
         left: 105px;
@@ -909,7 +1222,8 @@ footer{
         font-size: 33px;
         color: white;
     }
-    #educationSection>input{
+
+    #educationSection > input {
         position: absolute;
         top: 529px;
         left: 101px;
@@ -922,29 +1236,34 @@ footer{
         width: 82px;
         height: 23px;
     }
-    #backimg{
+
+    #backimg {
         border-radius: 26px;
         position: absolute;
         top: 458px;
         right: 247px;
         width: 244px;
     }
-    #pmvi{
+
+    #pmvi {
         top: 57px;
         position: absolute;
         right: 43px;
     }
-    #pwci{
+
+    #pwci {
         top: 144px;
         right: 162px;
         position: absolute;
     }
-    #ijsei{
+
+    #ijsei {
         position: absolute;
         top: 259px;
         left: 30px;
     }
-    #educationSection>div{
+
+    #educationSection > div {
         width: 402px;
         aspect-ratio: 1/1;
         border-radius: 100%;
@@ -954,7 +1273,8 @@ footer{
         top: 156px;
         right: 14px;
     }
-    main>div{
+
+    main > div {
         width: 13px;
         aspect-ratio: 1/1;
         background-color: rgba(0, 178, 255, 1);
@@ -963,7 +1283,8 @@ footer{
         top: 98px;
         left: 71px;
     }
-    main>nav>div{
+
+    main > nav > div {
         width: 79px;
         height: 2px;
         background-color: rgba(0, 178, 255, 1);
@@ -971,7 +1292,8 @@ footer{
         top: 489px;
         left: 104px;
     }
-    footer>div>img{
+
+    footer > div > img {
         width: 15vw;
         aspect-ratio: 1 / 1;
         position: absolute;
@@ -981,9 +1303,135 @@ footer{
         right: 0;
         margin: auto;
     }
+
+    #skillsSection > div:nth-child(2) {
+        top: 448px !important;
+    }
+
+    #skillsSection > div:first-child {
+        top: 19px;
+    }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 17px;
+        right: 430px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 355px;
+        height: 225px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 25px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 17px;
+        right: 430px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 355px;
+        height: 225px;
+    }
 }
 
-@media all and (max-width: 768px) and (min-width: 425px) {
+@media all and (max-width: 768px) and (min-width: 426px) {
     header {
         position: fixed;
         background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
@@ -994,6 +1442,7 @@ footer{
         z-index: 1000;
         opacity: 0%;
     }
+
     header > nav {
         position: relative;
         width: fit-content;
@@ -1018,12 +1467,14 @@ footer{
         padding-top: 7px;
         text-decoration: none;
     }
+
     #homeSection > div:first-child {
         position: absolute;
         left: 10px;
         top: 10px;
         z-index: 25000;
     }
+
     #homeSection > div:nth-child(2) {
         position: absolute;
         top: 207px;
@@ -1076,7 +1527,7 @@ footer{
         position: absolute;
         top: 171px;
         left: 0;
-        opacity:  0% ;
+        opacity: 0%;
     }
 
     #homeSection > div:nth-child(2) > h4 {
@@ -1087,6 +1538,7 @@ footer{
         top: 433px;
         left: 88px;
     }
+
     #homeSection > div:nth-child(3) {
         position: absolute;
         color: darkgray;
@@ -1102,6 +1554,7 @@ footer{
         top: 170px;
         position: relative;
     }
+
     #homeSection > div:nth-child(4) {
         width: 279px;
         height: 327px;
@@ -1111,17 +1564,20 @@ footer{
         top: 46px;
         right: 234px;
     }
+
     #homeSection > div:nth-child(5) {
         position: absolute;
         top: 132px;
         right: 232px;
     }
+
     #homeSection > div:nth-child(5) > img {
         width: 274px;
         position: relative;
         top: -93px;
         left: -17px;
     }
+
     #socailLinks {
         position: absolute;
         top: 172px;
@@ -1145,6 +1601,7 @@ footer{
         top: 95px;
         right: 116px;
     }
+
     #blogSection {
         position: absolute;
         top: 100vh;
@@ -1191,7 +1648,8 @@ footer{
         width: 70vw;
         left: 12vw;
     }
-    #educationSection>h3{
+
+    #educationSection > h3 {
         position: absolute;
         font-family: cursive;
         font-size: 25px;
@@ -1200,7 +1658,8 @@ footer{
         left: 81px;
         color: white;
     }
-    #pmv{
+
+    #pmv {
         position: absolute;
         top: 441px;
         left: 140px;
@@ -1208,24 +1667,28 @@ footer{
         font-size: 24px;
         color: white;
     }
-    #pwc{
+
+    #pwc {
         position: absolute;
-        top: 487px;
-        left: 140px;
-        font-family: serif;
-        font-size: 24px;
-        color: white;    }
-    #ijse{
-        position: absolute;
-        top: 534px;
+        top: 478px;
         left: 140px;
         font-family: serif;
         font-size: 24px;
         color: white;
     }
-    #educationSection>input{
+
+    #ijse {
         position: absolute;
-        top: 639px;
+        top: 515px;
+        left: 140px;
+        font-family: serif;
+        font-size: 24px;
+        color: white;
+    }
+
+    #educationSection > input {
+        position: absolute;
+        top: 610px;
         left: 138px;
         background-color: rgba(0, 178, 255, 1);
         font-weight: lighter;
@@ -1236,32 +1699,37 @@ footer{
         width: 82px;
         height: 23px;
     }
-    #backimg{
+
+    #backimg {
         border-radius: 26px;
         position: absolute;
         top: 299px;
         right: 128px;
         width: 237px;
     }
-    #pmvi{
+
+    #pmvi {
         width: 55px;
         top: 34px;
         position: absolute;
         right: 43px;
     }
-    #pwci{
+
+    #pwci {
         width: 55px;
         top: 126px;
         right: 132px;
         position: absolute;
     }
-    #ijsei{
+
+    #ijsei {
         width: 55px;
         position: absolute;
         top: 223px;
         left: 37px;
     }
-    #educationSection>div{
+
+    #educationSection > div {
         width: 323px;
         aspect-ratio: 1 / 1;
         border-radius: 100%;
@@ -1271,7 +1739,8 @@ footer{
         top: 91px;
         right: 245px;
     }
-    main>div{
+
+    main > div {
         width: 13px;
         aspect-ratio: 1 / 1;
         background-color: rgba(0, 178, 255, 1);
@@ -1280,15 +1749,17 @@ footer{
         top: 56px;
         left: 52px;
     }
-    main>nav>div{
+
+    main > nav > div {
         width: 79px;
         height: 2px;
         background-color: rgba(0, 178, 255, 1);
         position: absolute;
-        top: 620px;
+        top: 600px;
         left: 139px;
     }
-    footer>div>img{
+
+    footer > div > img {
         width: 24vw;
         aspect-ratio: 1 / 1;
         position: absolute;
@@ -1299,8 +1770,139 @@ footer{
         margin: auto;
     }
 
+    #skillsSection > div:nth-child(2) {
+        top: 57vh !important;
+    }
+
+    #skillsSection > div:first-child {
+        top: 20px;
+    }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 29px;
+        right: 288px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 263px;
+        height: 163px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        top: 96px;
+        left: 42px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 29px;
+        right: 288px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 263px;
+        height: 163px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
 }
-@media all and (max-width: 425px) and (min-width: 375px){
+
+@media all and (max-width: 426px) and (min-width: 376px) {
     header {
         position: fixed;
         background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
@@ -1309,8 +1911,9 @@ footer{
         border-radius: 0px 0px 10px 10px;
         box-sizing: border-box;
         z-index: 1000;
-        opacity: 50%;
+        opacity: 0%;
     }
+
     header > nav {
         position: relative;
         width: fit-content;
@@ -1326,7 +1929,7 @@ footer{
     }
 
     header > nav > ul > li {
-        display: inline-block;
+        display: grid;
     }
 
     header > nav > ul > li > a {
@@ -1335,12 +1938,18 @@ footer{
         padding-top: 7px;
         text-decoration: none;
     }
+
     #homeSection > div:first-child {
         position: absolute;
-        left: 11px;
-        top: 41px;
+        left: 7px;
+        top: 8px;
         z-index: 25000;
     }
+
+    #homeSection > div:first-child > img {
+        width: 85px;
+    }
+
     #homeSection > div:nth-child(2) {
         position: absolute;
         top: 207px;
@@ -1351,8 +1960,8 @@ footer{
     #homeSection > div:nth-child(2) > h3 {
         font-family: monospace;
         position: absolute;
-        top: 207px;
-        left: 93px;
+        top: 222px;
+        left: -7px;
         font-size: 18px;
         margin-bottom: 0;
     }
@@ -1360,22 +1969,22 @@ footer{
     #homeSection > div:nth-child(2) > h1 {
         font-family: Georgia;
         position: absolute;
-        font-size: 39px;
+        font-size: 26px;
         margin-bottom: 0;
         margin-top: 0;
-        top: 259px;
-        left: 88px;
-        width: 600px;
+        top: 281px;
+        left: -10px;
     }
 
     #homeSection > div:nth-child(2) > h5 {
         position: relative;
-        top: 284px;
-        left: 88px;
+        top: 235px;
+        left: -15px;
         font-family: monospace;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 30px;
-        width: 494px;
+        width: 327px;
+        opacity: 0%;
     }
 
     #homelftline {
@@ -1383,8 +1992,8 @@ footer{
         width: 118px;
         height: 2px;
         position: absolute;
-        top: 467px;
-        left: 88px;
+        top: 389px;
+        left: -2px;
     }
 
     #homeSection > div:nth-child(2) > div:last-child {
@@ -1394,7 +2003,7 @@ footer{
         position: absolute;
         top: 171px;
         left: 0;
-        opacity:  0% ;
+        opacity: 0%;
     }
 
     #homeSection > div:nth-child(2) > h4 {
@@ -1402,15 +2011,16 @@ footer{
         color: rgba(91, 86, 86, 1);
         font-family: Calibri;
         font-size: 13px;
-        top: 433px;
-        left: 88px;
+        top: 355px;
+        left: 4px;
     }
+
     #homeSection > div:nth-child(3) {
         position: absolute;
         color: darkgray;
-        top: 190px;
-        left: 129px;
-        font-size: 45px;
+        top: 177px;
+        left: 45px;
+        font-size: 42px;
         opacity: 4%;
     }
 
@@ -1420,26 +2030,30 @@ footer{
         top: 170px;
         position: relative;
     }
+
     #homeSection > div:nth-child(4) {
-        width: 279px;
-        height: 327px;
+        width: 209px;
+        height: 245px;
         background-color: black;
         border: 3px solid gray;
         position: absolute;
-        top: 46px;
-        right: 234px;
+        top: 150px;
+        right: 106px;
     }
+
     #homeSection > div:nth-child(5) {
         position: absolute;
-        top: 132px;
-        right: 232px;
+        top: 227px;
+        right: 83px;
     }
+
     #homeSection > div:nth-child(5) > img {
-        width: 274px;
+        width: 213px;
         position: relative;
-        top: -93px;
-        left: -17px;
+        top: -87px;
+        left: -34px;
     }
+
     #socailLinks {
         position: absolute;
         top: 172px;
@@ -1463,6 +2077,7 @@ footer{
         top: 95px;
         right: 116px;
     }
+
     #blogSection {
         position: absolute;
         top: 100vh;
@@ -1487,65 +2102,70 @@ footer{
     #blogSection > div > h2 {
         position: absolute;
         font-family: monospace;
-        font-size: 44px;
-        right: 430px;
-        top: 86px;
+        font-size: 21px;
+        right: 56px;
+        top: 46px;
     }
 
     #blogSection > div > img {
         position: absolute;
         left: 10vw;
-        top: 10vh;
-        width: 12vw;
+        top: 7vh;
+        width: 14vw;
     }
 
     #blogSection > div > p {
         position: absolute;
         font-family: monospace;
-        font-size: 25px;
-        top: 39vh;
-        line-height: 45px;
+        font-size: 15px;
+        top: 21vh;
+        line-height: 38px;
         font-weight: bold;
         width: 70vw;
-        left: 11vw;
+        left: 10vw;
     }
-    #educationSection>h3{
+
+    #educationSection > h3 {
         position: absolute;
         font-family: cursive;
-        font-size: 25px;
+        font-size: 19px;
         font-weight: bold;
-        top: 65px;
-        left: 102px;
+        top: 19px;
+        left: 49px;
         color: white;
     }
-    #pmv{
+
+    #pmv {
         position: absolute;
-        top: 205px;
-        left: 105px;
+        top: 441px;
+        left: 61px;
         font-family: serif;
-        font-size: 33px;
+        font-size: 18px;
         color: white;
     }
-    #pwc{
+
+    #pwc {
         position: absolute;
-        top: 277px;
-        left: 105px;
+        top: 478px;
+        left: 61px;
         font-family: serif;
-        font-size: 33px;
+        font-size: 18px;
         color: white;
     }
-    #ijse{
+
+    #ijse {
         position: absolute;
-        top: 350px;
-        left: 105px;
+        top: 515px;
+        left: 60px;
         font-family: serif;
-        font-size: 33px;
+        font-size: 18px;
         color: white;
     }
-    #educationSection>input{
+
+    #educationSection > input {
         position: absolute;
-        top: 529px;
-        left: 101px;
+        top: 602px;
+        left: 60px;
         background-color: rgba(0, 178, 255, 1);
         font-weight: lighter;
         border-radius: 10px;
@@ -1555,58 +2175,1227 @@ footer{
         width: 82px;
         height: 23px;
     }
-    #backimg{
+
+    #backimg {
         border-radius: 26px;
         position: absolute;
-        top: 456px;
-        right: 457px;
-        width: 244px;
+        top: 281px;
+        right: 42px;
+        width: 208px;
     }
-    #pmvi{
-        top: 57px;
+
+    #pmvi {
+        width: 48px;
+        top: 34px;
         position: absolute;
         right: 43px;
     }
-    #pwci{
-        top: 144px;
-        right: 162px;
+
+    #pwci {
+        width: 48px;
+        top: 104px;
+        right: 110px;
         position: absolute;
     }
-    #ijsei{
+
+    #ijsei {
+        width: 48px;
         position: absolute;
-        top: 259px;
-        left: 30px;
+        top: 184px;
+        left: 37px;
     }
-    #educationSection>div{
-        width: 402px;
-        aspect-ratio: 1/1;
+
+    #educationSection > div {
+        width: 264px;
+        aspect-ratio: 1 / 1;
         border-radius: 100%;
         background-color: rgba(0, 80, 106, 1);
         border: 5px solid rgba(0, 178, 255, 1);
         position: absolute;
-        top: 156px;
-        right: 189px;
+        top: 109px;
+        right: 118px;
     }
-    main>div{
-        width: 13px;
-        aspect-ratio: 1/1;
+
+    main > div {
+        width: 9px;
+        aspect-ratio: 1 / 1;
         background-color: rgba(0, 178, 255, 1);
         border-radius: 100%;
         position: absolute;
-        top: 98px;
-        left: 71px;
+        top: 45px;
+        left: 23px;
     }
-    main>nav>div{
+
+    main > nav > div {
         width: 79px;
         height: 2px;
         background-color: rgba(0, 178, 255, 1);
         position: absolute;
-        top: 489px;
-        left: 104px;
+        top: 585px;
+        left: 61px;
+    }
+
+    footer > div > img {
+        width: 24vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -51px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #skillsSection > div:nth-child(2) {
+        top: 53vh !important;
+    }
+
+    #skillsSection > div:first-child {
+        top: 40px;
+    }
+
+    #skillsSection > div:first-child > img {
+        width: 50px;
+    }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 75%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 100px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 171px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 75%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 100px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 171px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+
+}
+
+@media all and (max-width: 376px) and (min-width: 321px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+        opacity: 0%;
+    }
+
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 60vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: grid;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 7px;
+        top: 8px;
+        z-index: 25000;
+    }
+
+    #homeSection > div:first-child > img {
+        width: 85px;
+    }
+
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+        width: 280px;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 222px;
+        left: -7px;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 26px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 281px;
+        left: -10px;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 235px;
+        left: -15px;
+        font-family: monospace;
+        font-size: 14px;
+        line-height: 30px;
+        width: 299px;
+        opacity: 0%;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 389px;
+        left: -2px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+        opacity: 0%;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 13px;
+        top: 355px;
+        left: 4px;
+    }
+
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 177px;
+        left: 45px;
+        font-size: 42px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 170px;
+        position: relative;
+    }
+
+    #homeSection > div:nth-child(4) {
+        width: 209px;
+        height: 245px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 150px;
+        right: 106px;
+    }
+
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 227px;
+        right: 83px;
+    }
+
+    #homeSection > div:nth-child(5) > img {
+        width: 213px;
+        position: relative;
+        top: -87px;
+        left: -34px;
+    }
+
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 21px;
+        right: 56px;
+        top: 46px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 10vw;
+        top: 7vh;
+        width: 14vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 15px;
+        top: 21vh;
+        line-height: 38px;
+        font-weight: bold;
+        width: 70vw;
+        left: 10vw;
+    }
+
+    #educationSection > h3 {
+        position: absolute;
+        font-family: cursive;
+        font-size: 19px;
+        font-weight: bold;
+        top: 19px;
+        left: 49px;
+        color: white;
+    }
+
+    #pmv {
+        position: absolute;
+        top: 441px;
+        left: 61px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #pwc {
+        position: absolute;
+        top: 478px;
+        left: 61px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #ijse {
+        position: absolute;
+        top: 515px;
+        left: 60px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #educationSection > input {
+        position: absolute;
+        top: 602px;
+        left: 60px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #backimg {
+        border-radius: 26px;
+        position: absolute;
+        top: 281px;
+        right: 42px;
+        width: 208px;
+    }
+
+    #pmvi {
+        width: 48px;
+        top: 34px;
+        position: absolute;
+        right: 43px;
+    }
+
+    #pwci {
+        width: 48px;
+        top: 104px;
+        right: 110px;
+        position: absolute;
+    }
+
+    #ijsei {
+        width: 48px;
+        position: absolute;
+        top: 184px;
+        left: 37px;
+    }
+
+    #educationSection > div {
+        width: 264px;
+        aspect-ratio: 1 / 1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 109px;
+        right: 118px;
+    }
+
+    main > div {
+        width: 9px;
+        aspect-ratio: 1 / 1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 45px;
+        left: 23px;
+    }
+
+    main > nav > div {
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 585px;
+        left: 61px;
+    }
+
+    footer > div > img {
+        width: 24vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -51px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #skillsSection > div:nth-child(2) {
+        top: 53vh !important;
+    }
+
+    #skillsSection > div:first-child {
+        top: 40px;
+    }
+
+    #skillsSection > div:first-child > img {
+        width: 50px;
+    }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 60%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 100px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 171px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 60%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 100px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 171px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    header {
+        position: fixed;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 10px 10px;
+        box-sizing: border-box;
+        z-index: 1000;
+        opacity: 0%;
+    }
+
+    header > nav {
+        position: relative;
+        width: fit-content;
+        left: 60vw;
+        top: 10px;
+        font-size: 16px;
+        font-family: "Candara Light";
+
+    }
+
+    header > nav > ul {
+        margin: 0;
+    }
+
+    header > nav > ul > li {
+        display: grid;
+    }
+
+    header > nav > ul > li > a {
+        color: white;
+        margin: 10px;
+        padding-top: 7px;
+        text-decoration: none;
+    }
+
+    #homeSection > div:first-child {
+        position: absolute;
+        left: 7px;
+        top: 8px;
+        z-index: 25000;
+    }
+
+    #homeSection > div:first-child > img {
+        width: 85px;
+    }
+
+    #homeSection > div:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 90px;
+        color: white;
+        width: 228px;
+    }
+
+    #homeSection > div:nth-child(2) > h3 {
+        font-family: monospace;
+        position: absolute;
+        top: 222px;
+        left: -40px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    #homeSection > div:nth-child(2) > h1 {
+        font-family: Georgia;
+        position: absolute;
+        font-size: 23px;
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 273px;
+        left: -45px;
+    }
+
+    #homeSection > div:nth-child(2) > h5 {
+        position: relative;
+        top: 235px;
+        left: -15px;
+        font-family: monospace;
+        font-size: 14px;
+        line-height: 30px;
+        width: 227px;
+        opacity: 0%;
+    }
+
+    #homelftline {
+        background-color: rgba(91, 86, 86, 1);
+        width: 118px;
+        height: 2px;
+        position: absolute;
+        top: 392px;
+        left: -43px;
+    }
+
+    #homeSection > div:nth-child(2) > div:last-child {
+        background-color: white;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 171px;
+        left: 0;
+        opacity: 0%;
+    }
+
+    #homeSection > div:nth-child(2) > h4 {
+        position: absolute;
+        color: rgba(91, 86, 86, 1);
+        font-family: Calibri;
+        font-size: 13px;
+        top: 357px;
+        left: -36px;
+    }
+
+    #homeSection > div:nth-child(3) {
+        position: absolute;
+        color: darkgray;
+        top: 177px;
+        left: 45px;
+        font-size: 10px;
+        opacity: 4%;
+    }
+
+    #homeSection > div:nth-child(3) > h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        top: 170px;
+        position: relative;
+    }
+
+    #homeSection > div:nth-child(4) {
+        width: 204px;
+        height: 239px;
+        background-color: black;
+        border: 3px solid gray;
+        position: absolute;
+        top: 135px;
+        right: 54px;
+    }
+
+    #homeSection > div:nth-child(5) {
+        position: absolute;
+        top: 212px;
+        right: 29px;
+    }
+
+    #homeSection > div:nth-child(5) > img {
+        width: 210px;
+        position: relative;
+        top: -87px;
+        left: -34px;
+    }
+
+    #socailLinks {
+        position: absolute;
+        top: 172px;
+        left: calc(100% - 17px);
+    }
+
+    #socailLinks > a:first-child {
+        position: absolute;
+        top: 209px;
+        right: 116px;
+    }
+
+    #socailLinks > a:nth-child(2) {
+        position: absolute;
+        top: 153px;
+        right: 115px;
+    }
+
+    #socailLinks > a:last-child {
+        position: absolute;
+        top: 95px;
+        right: 116px;
+    }
+
+    #blogSection {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(1, 15, 37, 1), black);
+    }
+
+    #blogSection > div {
+        position: absolute;
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #blogSection > div > h2 {
+        position: absolute;
+        font-family: monospace;
+        font-size: 19px;
+        right: 28px;
+        top: 37px;
+    }
+
+    #blogSection > div > img {
+        position: absolute;
+        left: 8vw;
+        top: 5vh;
+        width: 18vw;
+    }
+
+    #blogSection > div > p {
+        position: absolute;
+        font-family: monospace;
+        font-size: 15px;
+        top: 19vh;
+        line-height: 31px;
+        font-weight: bold;
+        width: 70vw;
+        left: 10vw;
+    }
+
+    #educationSection > h3 {
+        position: absolute;
+        font-family: cursive;
+        font-size: 17px;
+        font-weight: bold;
+        top: 21px;
+        left: 47px;
+        color: white;
+    }
+
+    #pmv {
+        position: absolute;
+        top: 412px;
+        left: 28px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #pwc {
+        position: absolute;
+        top: 451px;
+        left: 28px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #ijse {
+        position: absolute;
+        top: 490px;
+        left: 28px;
+        font-family: serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #educationSection > input {
+        position: absolute;
+        top: 589px;
+        left: 29px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 19px;
+    }
+
+    #backimg {
+        border-radius: 26px;
+        position: absolute;
+        top: 266px;
+        right: 42px;
+        width: 176px;
+    }
+
+    #pmvi {
+        width: 45px;
+        top: 32px;
+        position: absolute;
+        right: 32px;
+    }
+
+    #pwci {
+        width: 45px;
+        top: 92px;
+        right: 95px;
+        position: absolute;
+    }
+
+    #ijsei {
+        width: 48px;
+        position: absolute;
+        top: 160px;
+        left: 27px;
+    }
+
+    #educationSection > div {
+        width: 236px;
+        aspect-ratio: 1 / 1;
+        border-radius: 100%;
+        background-color: rgba(0, 80, 106, 1);
+        border: 5px solid rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 109px;
+        right: 58px;
+    }
+
+    main > div {
+        width: 9px;
+        aspect-ratio: 1 / 1;
+        background-color: rgba(0, 178, 255, 1);
+        border-radius: 100%;
+        position: absolute;
+        top: 45px;
+        left: 23px;
+    }
+
+    main > nav > div {
+        width: 79px;
+        height: 2px;
+        background-color: rgba(0, 178, 255, 1);
+        position: absolute;
+        top: 577px;
+        left: 30px;
+    }
+
+    footer > div > img {
+        width: 24vw;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -51px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #skillsSection > div:nth-child(2) {
+        top: 53vh !important;
+    }
+
+    #skillsSection > div:first-child {
+        top: 28px;
+    }
+    #skillsSection > div:nth-child(2){
+        top: 378px !important;
+    }
+
+    #skillsSection > div:first-child > img {
+        width: 50px;
+    }
+
+    #projectSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #projectSection > div > div {
+        width: 65%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 64px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #projectSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #projectSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 108px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #projectSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #projectSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
+    }
+
+    #assignmentSection > div {
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        background-color: white;
+        border-radius: 25px;
+        top: 34px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #assignmentSection > div > div {
+        width: 65%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        top: 72px;
+        left: 64px;
+        margin-top: 16px;
+        overflow: hidden;
+    }
+
+    #assignmentSection > div > h3 {
+        position: absolute;
+        color: black;
+        font-family: cursive;
+        top: 11px;
+        font-size: 22px;
+        left: 48px;
+    }
+
+    #assignmentSection > div > button {
+        position: absolute;
+        bottom: 24px;
+        right: 108px;
+        background-color: rgba(0, 178, 255, 1);
+        font-weight: lighter;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 178, 255, 1);
+        color: white;
+        font-size: 12px;
+        width: 82px;
+        height: 23px;
+    }
+
+    #assignmentSection > div > div > div > img {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 161px;
+        height: 94px;
+    }
+
+    #assignmentSection > div > div > div > img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition-duration: 0.5s;
+        width: 266px;
+        height: 166px;
     }
 
 }
 
 
-
-
+@keyframes homeTitle {
+    from {
+        top: -50px;
+        opacity: 0%;
+    }
+    to {
+        top: 0px;
+        opacity: 100%;
+    }
+}
+@keyframes homeName {
+    from {
+        top: -50px;
+        opacity: 0%;
+    }
+    to {
+        top: 66px;
+        opacity: 100%;
+    }
+}
+@keyframes homePara {
+    from {
+        top: 0px;
+        opacity: 0%;
+    }
+    to {
+        top: 101px;
+        opacity: 100%;
+    }
+}
+@keyframes homeLine {
+    from {
+        top: 0px;
+        opacity: 0%;
+    }
+    to {
+        top: 171px;
+        opacity: 100%;
+    }
+}
+@keyframes blogTitle {
+    from{
+        top: -21px;
+        opacity: 0;
+    }
+    to{
+        top: 86px;
+        opacity: 1;
+    }
+}
