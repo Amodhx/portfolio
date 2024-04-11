@@ -1,0 +1,51 @@
+
+@keyframes homeTitle {
+    from {
+        top: -50px;
+        opacity: 0%;
+    }
+    to {
+        top: 0px;
+        opacity: 100%;
+    }
+}
+@keyframes homeName {
+    from {
+        top: -50px;
+        opacity: 0%;
+    }
+    to {
+        top: 66px;
+        opacity: 100%;
+    }
+}
+@keyframes homePara {
+    from {
+        top: 0px;
+        opacity: 0%;
+    }
+    to {
+        top: 101px;
+        opacity: 100%;
+    }
+}
+@keyframes homeLine {
+    from {
+        top: 0px;
+        opacity: 0%;
+    }
+    to {
+        top: 171px;
+        opacity: 100%;
+    }
+}
+@keyframes blogTitle {
+    from{
+        top: -21px;
+        opacity: 0;
+    }
+    to{
+        top: 86px;
+        opacity: 1;
+    }
+}
