@@ -79,7 +79,31 @@ footer {
         font-family: "Candara Light";
 
     }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
+        opacity: 0;
 
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
+    }
     header > nav > ul {
         margin: 0;
     }
@@ -545,7 +569,31 @@ footer {
         font-family: "Candara Light";
 
     }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
+        opacity: 0;
 
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
+    }
     header > nav > ul {
         margin: 0;
     }
@@ -995,7 +1043,31 @@ footer {
         font-size: 16px;
         font-family: "Candara Light";
     }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
 
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        opacity: 0;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
+    }
     header > nav > ul {
         margin: 0;
     }
@@ -1435,7 +1507,7 @@ footer {
     header {
         position: fixed;
         background-image: linear-gradient(rgba(1, 15, 37, 1), rgba(0, 25, 64, 1));
-        width: 100%;
+        width: 99%;
         height: 40px;
         border-radius: 0px 0px 10px 10px;
         box-sizing: border-box;
@@ -1445,12 +1517,38 @@ footer {
 
     header > nav {
         position: relative;
-        width: fit-content;
-        left: 60vw;
-        top: 10px;
+        width: 160px;
+        left: 79vw;
+        top: 42px;
         font-size: 16px;
         font-family: "Candara Light";
+        background-color: grey;
 
+    }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
+        opacity: 0;
+
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
     }
 
     header > nav > ul {
@@ -1792,7 +1890,7 @@ footer {
     }
 
     #projectSection > div > div {
-        width: 100%;
+        width: 93%;
         height: fit-content;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1853,7 +1951,7 @@ footer {
     }
 
     #assignmentSection > div > div {
-        width: 100%;
+        width: 93%;
         height: fit-content;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1922,6 +2020,31 @@ footer {
         font-size: 16px;
         font-family: "Candara Light";
 
+    }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
+        opacity: 0;
+
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
     }
 
     header > nav > ul {
@@ -2404,6 +2527,31 @@ footer {
         font-family: "Candara Light";
 
     }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
+        opacity: 0;
+
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
+    }
 
     header > nav > ul {
         margin: 0;
@@ -2502,8 +2650,9 @@ footer {
         color: darkgray;
         top: 177px;
         left: 45px;
-        font-size: 42px;
+        font-size: 33px;
         opacity: 4%;
+        width: 20%;
     }
 
     #homeSection > div:nth-child(3) > h1 {
@@ -2885,7 +3034,30 @@ footer {
         font-family: "Candara Light";
 
     }
+    #burgetbtn{
+        z-index: 9999;
+        position: fixed;
+        left: 93vw;
+        top: 21px;
 
+    }
+    #burgetbtn>div{
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+    #burgetbtn>div:first-child{
+        top: 4px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(2){
+        top: 7px;
+        position: relative;
+    }
+    #burgetbtn>div:nth-child(3){
+        top: 10px;
+        position: relative;
+    }
     header > nav > ul {
         margin: 0;
     }

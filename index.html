@@ -66,10 +66,28 @@
             transition-duration: 1.5s;
 
         }
-        ::content:hover{
-            transform: scaleX(1);
-            opacity: 1;
+        .hidden{
+            opacity: 0;
+            transition: all 1s;
         }
+        .show{
+            opacity: 1;
+            transition: all 1s;
+        }
+        .hide{
+            opacity: 0;
+        }
+        .rotate1{
+            transform: rotate(45deg);
+            top: 10px !important;
+            transition-duration: 1s;
+        }
+        .rotate3{
+            transform: rotate(-45deg);
+            top: 5px !important;
+            transition-duration: 1s;
+        }
+
     </style>
 </head>
 
@@ -87,9 +105,8 @@
     </nav>
 </header>
 <main>
-
     <section id="homeSection">
-        <div>
+        <div class="hidden">
             <img src="assets/icon/badge.png" title="logo" alt="logo">
         </div>
         <div id="homeLeft">
@@ -103,24 +120,31 @@
             <div></div>
         </div>
 
-        <div>
+        <div class="hidden">
             <h1>Software</h1>
             <h1>Developer</h1>
         </div>
 
-        <div></div>
-        <div>
+        <div class="hidden"></div>
+        <div class="hidden">
             <img src="assets/images/mainPersonal.png" title="personalImage" alt="Admin Image">
         </div>
-        <div id="socailLinks">
+        <div id="socailLinks" class="hidden">
             <a href=""><i class="fa-brands fa-linkedin fa-2x" style="color: #ffffff;"></i></a>
             <a href=""><i class="fa-regular fa-envelope fa-2x" style="color: #ffffff;"></i></a>
             <a href=""><i class="fa-brands fa-instagram fa-2x" style="color: #ffffff;"></i></a>
         </div>
+
+
+        <div id="burgetbtn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </section>
 
     <section id="blogSection">
-        <div>
+        <div class="hidden">
             <img src="assets/images/blogmain.png" title="MyImage" alt="Image" width="130">
             <h2>Hellow there !</h2>
             <p>I'm Amodh Nanditha,
@@ -134,14 +158,14 @@
 
     <section id="educationSection">
 
-        <img id="backimg" src="assets/images/educationBackground.jpg" title="Image" alt="backgroundImage" width="150">
+        <img class="hidden" id="backimg" src="assets/images/educationBackground.jpg" title="Image" alt="backgroundImage" width="150">
 
-        <div>
+        <div class="hidden">
             <img id="pmvi" src="assets/icon/removedpmv.png" title="Image" alt="backgroundImage" width="80">
             <img id="pwci" src="assets/icon/removedpwc.png" title="Image" alt="backgroundImage" width="80">
             <img id="ijsei" src="assets/icon/removedijse.png" title="Image" alt="backgroundImage" width="80">
         </div>
-        <main>
+        <main class="hidden">
             <div></div>
             <nav>
                 <div></div>
@@ -157,7 +181,7 @@
     </section>
 
     <section id="skillsSection">
-        <div>
+        <div class="hidden">
             <h3>Skills / Abilities</h3>
             <img src="assets/icon/java.png" title="JavaIcon" alt="java" width="80">
             <img src="assets/icon/mysql.png" title="Mysql" alt="mysql" width="80">
@@ -168,15 +192,15 @@
             <img src="assets/icon/github.png" title="github" alt="github" width="80">
         </div>
 
-        <div>
+        <div class="hidden">
             <button>Download Resume</button>
             <button>Download Resume</button>
             <button>Download Resume</button>
         </div>
     </section>
 
-    <section id="projectSection">
-        <div>
+    <section  id="projectSection">
+        <div class="hidden">
             <h3>Projects</h3>
             <div>
                 <div>
@@ -204,7 +228,7 @@
     </section>
 
     <section id="assignmentSection">
-        <div>
+        <div class="hidden">
             <h3>Assignments</h3>
             <div>
                 <div>
